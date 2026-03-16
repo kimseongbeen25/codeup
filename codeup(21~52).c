@@ -533,4 +533,42 @@ int main()
 
 */
 
-//
+//두 정수 입력받아 비교하기//
+
+/*
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", a<=b);
+    return 0;
+
+}
+
+- >=, <= 연산자는 같음(==)을 포함한다. 따라서 “작다/크다” 또는 "같다”는 의미를 가진다.
+
+*/
+
+//두 정수 입력받아 비교하기//
+
+/*
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    return 0;
+
+}
+ 
+- printf("%d", 123!=123); //비교 연산자 !=의 계산 결과인 0(거짓)이 출력된다
+
+*/
+
+
+
